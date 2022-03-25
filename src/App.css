@@ -1,0 +1,91 @@
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  background-color:rgb(68, 68, 233);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App{
+  width: 300px;
+  height: 300px;
+  display: block;
+  position: relative;
+  margin: 10% 10% 10% 10%;
+ 
+}
+.firstSection{
+  border-collapse: collapse;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  position: relative;
+  float: left;
+  font-size: 60px;
+}
+.midSection{
+  border-collapse: collapse;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  position: relative;
+  float: left;
+  font-size: 60px;
+}
+.lastSection{
+  border-collapse: collapse;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  position: relative;
+  float: left;
+  font-size: 60px;
+}
+.chooseButton{
+  width: 80px;
+  height: 80px;
+  font-size: 60px;
+  margin: 0% 1% 10% 10%;
+}
+#btn2{
+  margin: 0% 1% 10% 1%; ;
+}
+.result{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(16, 245, 16);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10% 10% 3% 10% ;
+}
+#refreshBtn{
+  margin: 0 10% 10% 10%;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
